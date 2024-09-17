@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8121846",
+      "name": "honor",
+      "font_class": "shijian",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    }
+  ]
+}

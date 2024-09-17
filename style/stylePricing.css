@@ -1,0 +1,639 @@
+@import url("./navFooter.css");
+
+.header {
+  padding: 110px 0 215px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url(../img/mountains.svg),
+    linear-gradient(135deg, #1f4e69 0, #164058 100%);
+  ;
+  background-size: cover;
+  background-position: top;
+  padding-left: 10px;
+}
+
+.headerContainer {
+  width: 100%;
+  /* height: 500px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerText {
+  width: 680px;
+  margin: 0 30px 25px 0;
+  /* font-size: 38px; */
+  font-weight: 600;
+  font-size: 32px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.discount {}
+
+.headerCheck {
+  width: 300px;
+  display: flex;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.left,
+.right,
+.leftChecked,
+.rightChecked {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.left {
+  color: rgb(24, 65, 87);
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.leftChecked {
+  color: white;
+  background-color: rgb(24, 65, 87);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+
+.right {
+  color: rgb(24, 65, 87);
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.rightChecked {
+  color: white;
+  background-color: rgb(24, 65, 87);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+label {
+  position: relative;
+  margin-left: 42px;
+}
+
+.leftBox,
+.rightBox {
+  display: none;
+}
+
+/* +代表相邻的元素 */
+/* ::after伪元素，使用伪元素，必须含有content属性，可以为'',但不可不写 */
+
+.leftBox:checked+a::before {
+  content: "";
+  display: inline-block;
+  background: url(../img/checkbox-checked.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+  left: -30px;
+}
+
+.leftBox+a::before {
+  content: "";
+  display: inline-block;
+  background: url(../img/checkbox-blue.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+  left: -30px;
+}
+
+.rightBox:checked+a::before {
+  content: "";
+  display: block;
+  background: url(../img/checkbox-checked.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+  left: -30px;
+}
+
+.rightBox+a::before {
+  content: "";
+  display: block;
+  background: url(../img/checkbox-blue.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+  left: -30px;
+}
+
+.leftBox:not(:checked)+a:hover::before,
+.rightBox:not(:checked)+a:hover::before {
+  content: "";
+  display: block;
+  background: url(../img/checkbox-checked-blue.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+  left: -30px;
+}
+
+
+.discount {
+  font-size: 11px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  width: 120px;
+  height: 23px;
+  line-height: 23px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #8a9bae;
+  position: relative;
+  top: 7px;
+  left: 104px;
+  z-index: 5;
+}
+
+.questionsPortion {
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  background-color: white;
+}
+
+.pricingPortion {
+  width: 100%;
+  background-color: white;
+}
+
+.price {
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  list-style-type: none;
+}
+
+.priceFree,
+.priceStan,
+.pricePro,
+.priceBus,
+.priceEnter {
+  margin: 0 7px;
+  /* height: 670px; */
+  text-align: center;
+  position: relative;
+  top: -110px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+
+}
+
+.priceEnter {
+  color: white;
+  background-color: rgb(24, 65, 87);
+  border-radius: 5px;
+}
+
+.popular {
+  height: 30px;
+  line-height: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: rgb(24, 65, 87);
+}
+
+.pricePro {
+  top: -140px;
+}
+
+.priceFreeIntro,
+.priceStanIntro,
+.priceBusIntro,
+.priceProIntro,
+.priceEnterIntro {
+  width: 171px;
+  height: 268px;
+  padding: 35px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.priceIntroHeader,
+.priceTag {
+  font-size: 18px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+.priceIntroHeader span {
+  font-size: 32px;
+  font-weight: 100;
+  position: relative;
+  top: 4px;
+  right: 8px
+}
+.priceHeaderCon{
+  padding-bottom: 30px;
+}
+.priceTitle,
+.pricePer {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.priceSmall {
+  color: #848484;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.priceFreeIntro,
+.priceStanIntro,
+.priceBusIntro {
+  background-color: #ebeff4;
+}
+
+.priceProIntro {
+  background-color: white;
+  box-shadow: 0 1rem 3rem 0 rgba(177, 177, 177, .4);
+}
+
+.priceButton,
+.priceProButton,
+.priceEnterButton {
+  color: #848484;
+  line-height: 40px;
+  width: 170px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgba(217, 212, 212, 20%);
+}
+
+.priceProButton {
+  color: white;
+  background-color: rgb(24, 65, 87);
+}
+
+.priceEnterButton {
+  color: white;
+  background-color: #f47b21;
+}
+
+.priceButton:hover,
+.priceProButton:hover,
+.priceEnterButton:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.priceTitle {
+  width: 200px;
+  height: 55px;
+}
+
+.priceText {
+  height: 500px;
+  padding-left: 15px;
+  margin-top: 25px;
+  text-align: left;
+  list-style-type: none;
+  line-height: 38px;
+  border-style: hidden;
+  font-size: 14px;
+  font-weight: 300;
+}
+.priceText span{
+  font-size: 18px;
+  position: relative;
+  right: 4px;
+}
+.priceBorder {
+  border-left: 1px solid #dde1e7;
+}
+
+.support {
+  width: 660px;
+  height: 180px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40px;
+}
+
+.support img {
+  width: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.platinum {
+  width: 460px;
+  padding: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+}
+
+.platinumHeader {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+
+.platinumText p{
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.platinumButton {
+  width: 140px;
+  height: 40px;
+  color: white;
+  line-height: 40px;
+  background-color: #f47b21;
+  text-align: center;
+  border-radius: 35px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.happyCusContainer {
+  width: fit-content;
+  height: 140px;
+  margin: 0 auto;
+}
+
+.happyCustomer {
+  width: 1100px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.happyText {
+  width: fit-content;
+  font-size: 17px;
+}
+
+.happyCustomer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deloitte {
+  width: 100px;
+}
+
+.micro {
+  width: 100px;
+}
+
+.wb {
+  width: 60px;
+}
+
+.wawa {
+  width: 80px;
+}
+
+.sch {
+  width: 100px;
+}
+
+.eric {
+  width: 60px;
+}
+
+.offerPortion {
+  width: 100%;
+  background-color: #eef2f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.offerMapText {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 26px;
+}
+
+.offerMap {
+  width: 1000px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(../img/world_map_vector_objects.svg);
+  background-repeat: no-repeat;
+  background-size: 900px;
+  background-position: center;
+  background-origin: content-box;
+}
+
+.offerFeatureTop {
+ border-top: 2px dashed #dde2e6
+  /* border-top-style: dotted;
+  border-color: #dde2e6; */
+}
+
+.offerFeature {
+  width: 1000px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.offerFeature span{
+  font-size: 55px;
+  color: #a4b6c5
+}
+.offerPlan {
+  width: 620px;
+  padding-left: 50px;
+}
+
+.offerPlanHeader {
+  width: fit-content;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.offerPlanText {
+  width: 500px;
+  line-height: 1.2;
+}
+
+.include {
+  width: 200px;
+  height: 80px;
+  padding: 18px;
+  padding-left: 50px;
+  border-left: 2px dashed #dde2e6;
+  /* border-left-color: #dde2e6;
+  border-left-style: dashed; */
+  box-sizing: border-box;
+}
+
+.includeTag {
+  height: 25px;
+  width: 90px;
+  line-height: 25px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background-color: #416376;
+  margin-bottom: 8px;
+}
+
+.includePlan {
+  width: 190px;
+}
+
+.questionsPortion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promoHeader {
+  width: fit-content;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.GotoFrequently{
+  width: 50%;
+    position: relative;
+    left: 22%;
+    bottom: 74px;
+    color: #7e8e9e;
+    font-weight: 550;
+}
+.GotoFrequently span{
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+.questions {
+  margin: 0 auto;
+  width: 1100px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 130px;
+}
+
+.quesContainer {
+  width: 550px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.quesTitle {
+  font-size: 18px;
+  color: #949494;
+  margin-bottom: 18px;
+}
+
+
+.ques li {
+  width: 500px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dedee1;
+  position: relative;
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.ques div {
+  padding-bottom: 5px;
+}
+
+a.add::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/add.svg);
+  background-size: cover;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 2px;
+  top: 1px;
+}
+
+a.add:hover:after {
+  content: "";
+  display: inline-block;
+  background: url(../img/add-after.svg);
+  background-size: cover;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 2px;
+  top: 1px;
+}
+
+
+a.minus::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/add-minus.svg);
+  background-size: cover;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 2px;
+  top: 1px;
+}
+
+.quesTextDisplay {
+  width: fit-content;
+  height: fit-content;
+  padding: 20px 15px;
+  line-height: 1.5;
+  background-color: #ebeff4;
+  font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+}
+
+.quesTextHidden {
+  display: none;
+}

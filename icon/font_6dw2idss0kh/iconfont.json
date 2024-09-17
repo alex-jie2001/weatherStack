@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5213294",
+      "name": "仪表盘",
+      "font_class": "yibiaopan",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "15530827",
+      "name": "126-云交换",
+      "font_class": "126-yunjiaohuan",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "23500949",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e869",
+      "unicode_decimal": 59497
+    },
+    {
+      "icon_id": "26859964",
+      "name": "固定",
+      "font_class": "guding",
+      "unicode": "e8e7",
+      "unicode_decimal": 59623
+    }
+  ]
+}

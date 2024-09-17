@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.navBar {
+  width: 100%;
+  background-color: rgb(24, 65, 87, 0);
+  position: fixed;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 87%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navLogo {
+  width: 200px;
+  margin: 20px;
+}
+
+.navBar ul {
+  width: 700px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+
+}
+
+.navBar a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.navBar a :hover {
+  text-decoration: brown;
+}
+
+.navTab {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.navTab a {
+  margin: 0 15px
+}
+
+.status>a::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+
+  background-color: #47c652;
+  position: relative;
+  left: -6px;
+}
+
+.navLog,
+.ogTab {
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.navTab {
+  background-color: transparent;
+}
+
+.navLog {
+  width: 65px;
+  margin: 0px 12px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+
+.ogTab {
+  width: 110px;
+  background-color: #f47b21;
+  border-radius: 3px;
+}
+
+
+.signUpContainer {
+  width: 100%;
+  background-color: #eef2f5;
+}
+
+.signUp {
+  margin: 30px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+}
+
+
+.signUpTab {
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  background-color: #f47b21;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.signUpTab:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(24, 65, 87);
+  color: white;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerUpper {
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footerLogo {
+  margin-right: 30px;
+}
+
+.footerMainLogo img {
+  width: 200px;
+}
+
+.footerSmallLogo {
+  width: 170px;
+  padding-top: 8px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product div,
+.help div,
+.account div,
+.touch div {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footerSmallLogo img {
+  width: 25px;
+}
+
+.footerUpper ul {
+  list-style-type: none;
+  line-height: 2.1;
+  font-size: 14px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+}
+
+.footerUpper li {
+  width: 150px;
+}
+
+.footerUpper li a:hover {
+  text-decoration: underline;
+}
+
+.footerLower {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footerLowerLink {
+  width: 1400px;
+  font-size: 14px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+}
+
+.footerLowerLink a:hover {
+  text-decoration: underline;
+}
+
+.footerLowerRights {
+  width: 1400px;
+  font-size: 13px;
+  margin-bottom: 50px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+}
+
+.footer .allPlayer {
+  text-decoration: underline;
+}

@@ -1,0 +1,135 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "637290",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "1304892",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "2076264",
+      "name": "闹钟",
+      "font_class": "naozhong",
+      "unicode": "e890",
+      "unicode_decimal": 59536
+    },
+    {
+      "icon_id": "2749913",
+      "name": "人群",
+      "font_class": "renqun",
+      "unicode": "e7c3",
+      "unicode_decimal": 59331
+    },
+    {
+      "icon_id": "3260196",
+      "name": "活动执行",
+      "font_class": "qizi",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "4111811",
+      "name": "代码",
+      "font_class": "code",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "5238511",
+      "name": "钱袋",
+      "font_class": "jineqiandaiyueshangjin",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "5320519",
+      "name": "太阳",
+      "font_class": "taiyang",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "5510924",
+      "name": "多云",
+      "font_class": "duoyun",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "7541953",
+      "name": "24gl-city2",
+      "font_class": "24gl-city2",
+      "unicode": "e831",
+      "unicode_decimal": 59441
+    },
+    {
+      "icon_id": "8765123",
+      "name": "数据库",
+      "font_class": "shujuku",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "11125890",
+      "name": "订正",
+      "font_class": "dingzheng",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "11372643",
+      "name": "安全",
+      "font_class": "anquan",
+      "unicode": "e8ab",
+      "unicode_decimal": 59563
+    },
+    {
+      "icon_id": "15530827",
+      "name": "126-云交换",
+      "font_class": "126-yunjiaohuan",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "23995111",
+      "name": "多云",
+      "font_class": "duoyun1",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "26974782",
+      "name": "下雪-雪花",
+      "font_class": "xiaxue-xuehua",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "27876479",
+      "name": "饼状图 百分比 统计",
+      "font_class": "a-bingzhuangtubaifenbitongji",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "34180717",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    }
+  ]
+}

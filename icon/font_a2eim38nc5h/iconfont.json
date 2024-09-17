@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "933718",
+      "name": "循环",
+      "font_class": "xunhuan",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "9164756",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "11391534",
+      "name": "文件",
+      "font_class": "wenjian",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "15765353",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "20911128",
+      "name": "路标,指路牌,路名牌",
+      "font_class": "lubiaozhilupailumingpai",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    }
+  ]
+}

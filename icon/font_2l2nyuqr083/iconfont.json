@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "792388",
+      "name": "fold-折叠",
+      "font_class": "foldzhedie",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "4539165",
+      "name": "仪表盘",
+      "font_class": "yibiaopan",
+      "unicode": "eb42",
+      "unicode_decimal": 60226
+    },
+    {
+      "icon_id": "15530877",
+      "name": "183-搜索文件",
+      "font_class": "183-sousuowenjian",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "22959896",
+      "name": "数据库连接",
+      "font_class": "shujukulianjie",
+      "unicode": "e81c",
+      "unicode_decimal": 59420
+    },
+    {
+      "icon_id": "41260816",
+      "name": "数据增长·线性",
+      "font_class": "a-shujuzengchangxianxing",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    }
+  ]
+}
